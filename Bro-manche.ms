@@ -1,6 +1,6 @@
 /***
 
-Bromanche V0.9  2020-09-07
+Bromanche V0.9.0  2020-09-07
 
 60% of the time, it works every time!
 
@@ -16,7 +16,7 @@ add lowercase left right to search terms in renameLeftRight
 macroScript Bromanche
 category:"Bromanche tools"
 buttonText:"Bromanche"
-tooltip:"Bromanche V0.9"
+tooltip:"Bromanche V0.9.0"
 (
     rollout BromancheRollout "Bromanche V0.9" width:230 height:310
     (
