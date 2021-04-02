@@ -1,4 +1,4 @@
-rollout unnamedRollout "Untitled" width:163 height:360
+rollout unnamedRollout "Untitled" width:230 height:70
 (
 	button 'smthGrps' "Set smoothing groups to 1" pos:[13,12] width:130 height:50 align:#left
 	button 'WeldVertA' "Weld .001" pos:[13,80] width:130 height:50 align:#left

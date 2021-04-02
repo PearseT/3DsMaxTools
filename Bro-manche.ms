@@ -244,11 +244,7 @@ tooltip:"Bromanche V0.9.0"
                 redrawViews()	
             )
         )
-    
-
-
-    
-     
+         
         on tRmv pressed  do
         (    selectedObjects = selection as array
             for obj in selectedObjects do
@@ -266,9 +262,6 @@ tooltip:"Bromanche V0.9.0"
             )
         )	
         
-
-
-
 	)
 
 DestroyDialog BromancheRollout
@@ -300,7 +293,7 @@ tooltip:"Center pivot, zero out Z"
 macroScript HQ_display
 category:"Bromanche tools"
 buttonText:"HQ"
-tooltip:"high quality viewport without shadows and AO"
+tooltip:"HQ viewport"
 (   vp = NitrousGraphicsManager.GetActiveviewportSetting()
     actionMan.executeAction -844228238 "12"  -- vp Lighting and Shadows: High Quality
         vp.ShadowsEnabled = 0
